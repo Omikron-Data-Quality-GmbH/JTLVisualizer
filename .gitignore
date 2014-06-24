@@ -1,0 +1,11 @@
+/.settings/
+**/.settings/
+/.svn/
+**/.svn/
+/.project
+**/.project
+/.classpath
+**/.classpath
+**/target/
+/target
+rebel.xml
