@@ -1,12 +1,16 @@
-JTL Visualizer
-==============
+# JTL Visualizer
 
 JTL Visualizer visualizes response times from JMeter test results as histograms or scatter plots in SVG format.
 
-Example Usage:
-java -cp jtl-visualizer.jar;lib/*.jar net.omikron.jtl.visualizer.JtlToSvg -out sample.svg sample.jtl
+Brought to you by Omikron's FACT-Finder development team - http://www.fact-finder.com
 
-All usage options: 
+## Example Usage:
+```
+java -cp jtl-visualizer.jar;lib/*.jar net.omikron.jtl.visualizer.JtlToSvg -out sample.svg sample.jtl
+```
+
+## All usage options: 
+```
 JtlToSvg [options] [JTL file]
  -bins <num>                             Set the number of bins to be created in the historgram. If not set, the default
                                          number of bins will be set to 20.
@@ -54,3 +58,4 @@ JtlToSvg [options] [JTL file]
  -version <version>                      Set the artefact version shown in the build information box. If not set,
                                          "Unknown" will be shown.
  -ymax <yAxisMax>                        Set maximum value for the y-axis.
+ ```
